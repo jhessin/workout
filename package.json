@@ -1,0 +1,33 @@
+{
+  "name": "workout",
+  "version": "1.0.0",
+  "description": "A workout app written in typescript using electron.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "run": "electron dist/App.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhessin/workout.git"
+  },
+  "keywords": [
+    "workout",
+    "typescript",
+    "electron"
+  ],
+  "author": "Jim Hessin <jhessin@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhessin/workout/issues"
+  },
+  "homepage": "https://github.com/jhessin/workout#readme",
+  "dependencies": {
+    "electron": "^18.0.3",
+    "ts-node": "^10.7.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}
